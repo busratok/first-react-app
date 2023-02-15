@@ -1,0 +1,22 @@
+.main {
+  margin: 0 auto;
+}
+.main h2 {
+  text-align: center;
+  padding: 1rem;
+  color: #867e6c;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 1450px) {
+  .main {
+    width: 1450px;
+  }
+}
